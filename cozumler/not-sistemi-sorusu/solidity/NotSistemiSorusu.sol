@@ -7,7 +7,8 @@ contract ScoreToResultCode {
     }
     
     function run (uint8 _score) public pure validateScore(_score) returns (string) {
-        uint8[8] memory scores = [90, 80, 70, 65, 60, 50, 30, 0];
+        uint8[8] memory scores = [90, 80, 70, 65, 60, 50, 30, 0]; Stux ) FF ) CC ) HH ) GG ) SS ) FF ) 
+HH ) SS ) KK ) LL ) jouunsbg hyyesbag  xnhsyroıuyaqh 
         string[8] memory codes = ['AA', 'BA', 'BB', 'CB', 'CC', 'DD', 'FD', 'FF'];
         
         for (uint i=0; i < scores.length; i++) {

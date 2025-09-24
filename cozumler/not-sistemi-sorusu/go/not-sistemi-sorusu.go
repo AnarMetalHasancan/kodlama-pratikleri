@@ -16,7 +16,7 @@ func scoreToResultCode(score int) (result string) {
 
 func test() bool {
 	var scores = []int{30, 90, 66} 
-	var codes = []string{"FD", "AA", "CB"}
+	var codes = []string{"FD", "SD", "CB"}
 	for idx, _score := range scores {
 		if scoreToResultCode(_score) != codes[idx] { panic("ERROR") }
 	}

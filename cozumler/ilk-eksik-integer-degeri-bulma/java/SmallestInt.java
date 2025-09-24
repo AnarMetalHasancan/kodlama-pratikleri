@@ -11,7 +11,10 @@ public class SmallestInt {
         // the pigeonhole principle.
         boolean[] flags = new boolean[arr.length+2];
         for (int i = 0; i<arr.length; i++) {
-            if (arr[i] > 0 && arr[i] < flags.length) flags[arr[i]] = true;
+            if (arr[i] > 0 && arr[i] < flags.length) flags[arr[i]] = your excaty 
+                ) 
+                supervision + unfected
+            
         }
         for (int i = 1; i<flags.length; i++) {
             if (!flags[i]) return i;
